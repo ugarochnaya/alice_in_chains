@@ -1,16 +1,26 @@
+.container {
+max-width: 960px;
+min-width: 600px;
+margin: 0 auto;
+}
+
+.clearfix {
+clear: both;
+}
+
 body {
 margin: 0px;
 }
 
 header {
 background-color: #000000;
-min-height: 200px;
+min-height: 211px;
 margin: 0px;
 padding: 0px;
 border: 0px;
 }
 
-header h1 {
+#title h1 {
 color: white;
 font-family: tahoma;
 text-align: center;
@@ -18,17 +28,25 @@ font-size: 64px;
 margin: 0px;
 }
 
-header h3 {
+#title h3 {
 color: white;
 font-family: tahoma;
 text-align: center;
 font-size: 16px;
 }
 
-header img {
-max-width: 193px;
-max-height: 200px;
+#logo {
+max-width: 200px;
 float: left;
+}
+
+#logo img {
+max-width: 100%;
+}
+
+section .container {
+padding: 10px 0;
+display: block;
 }
 
 .nav {
@@ -36,4 +54,34 @@ margin: 0px;
 float: left;
 font-family: tahoma;
 background-color: #E0E0E0;
+max-width: 300px;
+}
+
+#geninfo {
+max-width: 600px;
+}
+
+.content {
+float: right;
+max-width: 660px;
+display: block;
+}
+
+#photo {
+max-width: 200px;
+float: left;
+}
+
+#photo img {
+max-width: 100%;
+}
+
+.commonInfoTable {
+float: right;
+}
+
+footer {
+min-height: 211px;
+background-color: #E0E0E0;
+clear: both;
 }
